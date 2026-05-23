@@ -39,4 +39,4 @@ The project was built and simulated in Xilinx Vivado
 
 The test program runs 8 instructions in 13 cycles (CPI = 1.625). The extra cycles come from the 4-stage pipeline fill and 1 jump flush. Forwarding kicks in correctly for the RAW hazards between I1/I2 and I3, and between I3 and I4.
 
-The design was synthesised on an Artix-7 FPGA (xc7a200tfbg676-2)
+The design was synthesised on an Artix-7 FPGA (xc7a200tfbg676-2) and used 1052 Slice LUTs and 1302 Slice Registers.
